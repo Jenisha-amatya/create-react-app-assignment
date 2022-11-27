@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body {
+  padding: 16px 32px;
+  height: 200px;
+  width: 500px;
+
+  margin-inline: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  margin-bottom: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* We'll learn about this later on! */
+aside p:last-of-type {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-.App-link {
-  color: #61dafb;
+aside {
+  background: peachpuff;
+  border: 2px solid;
+  padding: 20px;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cd {
+  color: deeppink;
+}
+
+.red {
+  color: black;
+}
+
+.cd:link {
+  color: deeppink;
+  text-decoration: none;
+}
+.red:hover,
+.red:active {
+  text-decoration: none;
+  color: black;
+}
+
+.red:link {
+  color: black;
+}
+
+.cd:hover,
+.cd:active {
+  text-decoration: underline;
+  color: deeppink;
+}
+
+.recipe {
+  font-weight: 600;
 }
