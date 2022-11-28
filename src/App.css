@@ -28,32 +28,23 @@ aside {
   color: black;
 }
 
-.cd {
-  color: deeppink;
-}
-
-.red {
-  color: black;
-}
-
-.cd:link {
+.pink a {
   color: deeppink;
   text-decoration: none;
 }
-.red:hover,
-.red:active {
-  text-decoration: none;
-  color: black;
-}
 
-.red:link {
-  color: black;
-}
-
-.cd:hover,
-.cd:active {
+.pink a:hover {
+  color: deeppink;
   text-decoration: underline;
-  color: deeppink;
+}
+
+.black a {
+  color: black;
+}
+
+.black a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .recipe {
